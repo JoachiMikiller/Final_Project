@@ -1,0 +1,36 @@
+{
+  "name": "Express_Final_Project_2026",
+  "version": "1.0.0",
+  "description": "An API Rest using Express.js",
+  "keywords": [
+    "api",
+    "rest",
+    "express",
+    "nodejs",
+    "jwt",
+    "mysql"
+  ],
+  "author": "Joachim M. Mart",
+  "license": "ISC",
+  "type": "commonjs",
+  "main": "Index.js",
+  "scripts": {
+    "start": "nodemon Index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.12.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.14"
+  }
+}

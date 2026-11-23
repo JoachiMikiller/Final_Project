@@ -1,0 +1,65 @@
+body {
+  margin: 20px;
+  background: white;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: darkblue;
+}
+
+h2 {
+  color: #333;
+}
+
+.menu {
+  background: #eeeeee;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.login {
+  width: 350px;
+  margin: 80px auto;
+  border: 1px solid #999999;
+  padding: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 250px;
+  padding: 5px;
+  margin-top: 3px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background: #dddddd;
+}
+
+a {
+  color: blue;
+}
+
+#message {
+  color: #555555;
+}

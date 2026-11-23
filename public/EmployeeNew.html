@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Nuevo empleado</title>
+  <link rel="stylesheet" href="Styles.css">
+
+  <script src = "https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <div class="menu">
+    <a href="Employees.html">Ver empleados</a>
+  </div>
+
+  <h1>Agregar empleado</h1>
+  <form id="employee-form">
+    <p><label for="emp-name">Nombre:</label><br><input id="emp-name" type="text" required></p>
+    <p><label for="emp-lastname">Apellidos:</label><br><input id="emp-lastname" type="text" required></p>
+    <p><label for="emp-phone">Teléfono:</label><br><input id="emp-phone" type="text" required></p>
+    <p><label for="emp-email">Correo:</label><br><input id="emp-email" type="email" required></p>
+    <p><label for="emp-address">Dirección:</label><br><input id="emp-address" type="text" required></p>
+    <p id="message"></p>
+    <button type="submit">Guardar</button>
+    <a href="Employees.html">Cancelar</a>
+  </form>
+
+  <script src="JS/Auth.js"></script>
+  <script src="JS/New.js"></script>
+</body>
+</html>

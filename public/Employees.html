@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Empleados</title>
+  <link rel="stylesheet" href="Styles.css">
+
+  <script src = "https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <div class="menu">
+    <a href="Employees.html">Empleados</a> |
+    <a href="EmployeeNew.html">Nuevo empleado</a> |
+    <button id="logout-btn" type="button">Cerrar sesión</button>
+  </div>
+
+  <h1>Lista de empleados</h1>
+  <p>Aquí aparecen los empleados registrados.</p>
+  <hr>
+
+  <form id="search-form">
+    <label for="search-name">Buscar por nombre:</label>
+    <input id="search-name" type="text">
+    <button type="submit">Buscar</button>
+    <button id="clear-search" type="button">Mostrar todos</button>
+  </form>
+  <p id="message"></p>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Teléfono</th>
+        <th>Correo</th>
+        <th>Dirección</th>
+        <th>Opciones</th>
+      </tr>
+    </thead>
+    <tbody id="employee-rows"></tbody>
+  </table>
+
+  <script src="JS/Auth.js"></script>
+  <script src="JS/Employees.js"></script>
+</body>
+</html>

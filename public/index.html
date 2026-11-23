@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="Styles.css">
+
+  <script src = "https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <div class="login">
+    <h1>Sistema de empleados</h1>
+    <hr>
+    <h2>Iniciar sesión</h2>
+    <form id="login-form">
+      <p>
+        <label for="input-mail">Correo:</label><br>
+        <input id="input-mail" type="email" required>
+      </p>
+      <p>
+        <label for="input-password">Contraseña:</label><br>
+        <input id="input-password" type="password" required>
+      </p>
+      <p id="message"></p>
+      <button type="submit">Entrar</button>
+    </form>
+    <p>Escribe tus datos para entrar al sistema.</p>
+  </div>
+
+  <script src="JS/Auth.js"></script>
+  <script src="JS/Login.js"></script>
+</body>
+</html>
